@@ -97,6 +97,7 @@ footer{
     box-shadow: 0 0 9px #8b7e9c;
 }
 .noticias{
+    background-color: #8b7e9c;
     width: 100%;
     display: flex;
     flex-direction: row;
