@@ -110,9 +110,8 @@ footer{
     align-items: center;
 }
 .right_area{
-    width: 100%;
+    width: 30vw;
     height: 100%;
-    flex: 1/2;
     display: flex;
     flex-direction: column;
     gap: 25px;
