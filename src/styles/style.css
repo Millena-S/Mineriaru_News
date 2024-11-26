@@ -141,7 +141,8 @@ h3{
 .xis_anuncio svg{
     color: #fff;
     cursor: pointer;
-
+    height: 5px;
+    width: 5px;
 }
 .anuncio{
     background-image: url('blob:https://web.whatsapp.com/6a487234-7c5c-484d-b515-7be9aaec0be7');
