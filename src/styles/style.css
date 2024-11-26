@@ -84,8 +84,11 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 10px;
 }
 footer{
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     padding: 40px;
     background-color: #6e548d;
@@ -101,7 +104,7 @@ footer{
 .left_area{
     width: 100%;
     height: 100%;
-    flex: 2/3;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,11 +112,11 @@ footer{
 .right_area{
     width: 100%;
     height: 100%;
-    flex: 1/3;
+    flex: 1/2;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 h3{
-    width: 22px;
+    font-size: 22px;
 }
