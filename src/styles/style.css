@@ -119,6 +119,10 @@ footer{
 h3{
     font-size: 22px;
 }
+.coracao{
+    height: 12px;
+    width: 12px;
+}
 .noticia{
 }
 .read_more{
@@ -130,4 +134,7 @@ h3{
 .read_more:hover{
     box-shadow: 0 0 4px #6e548d;
     opacity: 0.8;
+}
+.xis_anuncio svg{
+    color: #fff;
 }
