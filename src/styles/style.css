@@ -69,8 +69,12 @@ main{
 }
 .hero_down p{
     flex: 1/4;
+    height: 100%;
+    width: 100%;
 }
 .hero_down img{
+    height: 100%;
+    width: 100%;
     flex: 1/2;
 }
 .hero_down{
