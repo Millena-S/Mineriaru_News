@@ -60,6 +60,18 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hero h2{
+    font-size: 20px;
+    margin: 15px;
+}
+.hero_down p{
+    flex: 1/4;
+}
+.hero_down img{
+    flex: 1/2;
 }
 .hero_down{
     width: 100%;
