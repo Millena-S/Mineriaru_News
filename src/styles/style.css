@@ -145,5 +145,7 @@ h3{
     width: 5px;
 }
 .anuncio{
+    height: 200px;
+    width: 125px;
     background-image: url('blob:https://web.whatsapp.com/6a487234-7c5c-484d-b515-7be9aaec0be7');
 }
