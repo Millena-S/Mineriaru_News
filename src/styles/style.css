@@ -131,6 +131,8 @@ h3{
     font-weight: 800;
     padding: 5px 10px;
     border-radius: 25%;
+    border: 0;
+    cursor: pointer;
 }
 .read_more:hover{
     box-shadow: 0 0 4px #6e548d;
@@ -138,4 +140,9 @@ h3{
 }
 .xis_anuncio svg{
     color: #fff;
+    cursor: pointer;
+
+}
+.anuncio{
+    background-image: url('blob:https://web.whatsapp.com/6a487234-7c5c-484d-b515-7be9aaec0be7');
 }
