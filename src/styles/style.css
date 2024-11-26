@@ -119,3 +119,15 @@ footer{
 h3{
     font-size: 22px;
 }
+.noticia{
+}
+.read_more{
+    background-color: #8600ff;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 39%;
+}
+.read_more:hover{
+    box-shadow: 0 0 4px #6e548d;
+    opacity: 0.8;
+}
