@@ -112,6 +112,7 @@ footer{
     align-items: center;
 }
 .right_area{
+    align-items: center;
     width: 30vw;
     height: 100%;
     display: flex;
@@ -119,6 +120,7 @@ footer{
     gap: 25px;
 }
 h3{
+    margin-bottom: 20px;
     font-size: 22px;
 }
 .coracao{
@@ -126,7 +128,7 @@ h3{
     width: 12px;
 }
 .read_more{
-    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: #9a35f2;
     color: #fff;
     font-weight: 800;
@@ -154,7 +156,7 @@ h3{
 .banuncio{
     background-color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: start;
     height: 215px;
     width: 215px;
@@ -176,12 +178,18 @@ h3{
     box-shadow: 0 0 3px #000;
 }
 .noticia{
+    gap: 10px;
     display: flex;
     cursor: pointer;
+    align-items: center;
 }
 .left_area .noticia img{
-    background-size: cover;
+    background-size: auto;
     height: 150px;
     width: 150px;
     background-position: right;
+}
+.right_area .noticia img{
+    height: 120px;
+    background-size: contain;
 }
