@@ -159,20 +159,20 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: start;
-    height: 215px;
-    width: 215px;
+    height: 100%;
+    width: 100%;
 }
 .anuncio{
     align-self: center;
     background-position: center;
     background-size: contain;
-    height: 200px;
-    width: 125px;
+    height: 300px;
+    width: 169px;
     background-image: url('https://i.pinimg.com/736x/db/97/d8/db97d839cc78439b1beb7874f31acfcd.jpg');
 }
 .right_area .noticia{
     padding: 15px;
-    border: 1px solid #000;
+    border: 1px solid #6e548d;
     border-radius: 10%;
 }
 .right_area .noticia:hover{
@@ -191,8 +191,13 @@ h3{
     height: 150px;
     width: 150px;
     background-position: right;
+    border-radius: 5%;
 }
 .right_area .noticia img{
     height: 75px;
     background-size: contain;
+}
+.left_area .noticia{
+    padding-left: 10px;
+    border-bottom: 1px solid #6e548d;
 }
