@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.icone{
+    height: 35px;
+    width: 35px;
+}
+.line{
+    background-color: #ddd;
+    border-radius: 35%;
+    width: 100%;
+    height: 3px;
+}
+.menuOp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    width: 30px;
+    gap: 7px;
+    cursor: pointer;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: "Dancing Script", cursive;
+    color: #ddd;
+    font-size: 24px;
+    font-weight: 600;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #6e548d;
+    border-bottom: 3px solid #806c99;
+    box-shadow: 0 0 9px #8b7e9c;
+}
+main{
+    background-color: #c2b8cc;
+    min-height: 100vh;
+    width: calc(100vw - 120px);
+    padding: 20px 60px;
+    font-family: "Noto Serif", serif;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px;
+    background-color: #6e548d;
+    color: #ddd;
+    border-top: 3px solid #806c99;
+    box-shadow: 0 0 9px #8b7e9c;
+}
+.coracao{
+    height: 12px;
+    width: 12px;
+}
