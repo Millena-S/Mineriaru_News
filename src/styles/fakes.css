@@ -29,7 +29,7 @@ body{
     gap: 7px;
     cursor: pointer;
 }
-header a{
+header h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ h2{
     font-size: 24px;
     margin: 20px;
 }
-img{
+.principal{
     margin-bottom: 20px;
     width: 100%;
 }
