@@ -49,7 +49,6 @@ header{
     box-shadow: 0 0 9px #8b7e9c;
 }
 main{
-    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     background-color: #c2b8cc;
@@ -57,6 +56,7 @@ main{
     width: calc(100vw - 200px);
     padding: 20px 100px;
     font-family: "Noto Serif", serif;
+    padding-bottom: 50px;
 }
 
 footer{
