@@ -97,7 +97,7 @@ footer{
     box-shadow: 0 0 9px #8b7e9c;
 }
 .noticias{
-    background-color: #8b7e9c;
+    background-color: #c6c0cb;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -124,15 +124,12 @@ h3{
     height: 12px;
     width: 12px;
 }
-.noticia{
-
-}
 .read_more{
-    background-color: #8600ff;
+    background-color: #9a35f2;
     color: #fff;
     font-weight: 800;
     padding: 5px 10px;
-    border-radius: 25%;
+    border-radius: 7%;
     border: 0;
     cursor: pointer;
 }
@@ -140,11 +137,21 @@ h3{
     box-shadow: 0 0 4px #6e548d;
     opacity: 0.8;
 }
+.xis_anuncio{
+    display: flex;
+    gap: 0;
+}
 .xis_anuncio svg{
+    border: 1px solid #000;
     color: #fff;
     cursor: pointer;
     height: 15px;
     width: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.banuncio{
+    height: 215px;
+    width: 215px;
 }
 .anuncio{
     background-position: center;
@@ -154,5 +161,16 @@ h3{
     background-image: url('https://i.pinimg.com/736x/db/97/d8/db97d839cc78439b1beb7874f31acfcd.jpg');
 }
 .right_area .noticia{
-
+    border: 1px solid #000;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.right_area .noticia:hover{
+    opacity: 0.9;
+    box-shadow: 0 0 3px #000;
+}
+.left_area .noticia img{
+    height: 150px;
+    width: 150px;
+    background-position: right;
 }
