@@ -49,6 +49,8 @@ header{
     box-shadow: 0 0 9px #8b7e9c;
 }
 main{
+    display: flex;
+    flex-direction: column;
     background-color: #c2b8cc;
     min-height: 100vh;
     width: calc(100vw - 120px);
@@ -69,4 +71,17 @@ footer{
 .coracao{
     height: 12px;
     width: 12px;
+}
+h2{
+    font-size: 24px;
+    margin: 20px;
+}
+img{
+    width: 100%;
+}
+h3{
+    font-size: 22px;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
