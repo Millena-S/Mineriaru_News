@@ -180,6 +180,7 @@ h3{
     box-shadow: 0 0 3px #000;
 }
 .noticia{
+    color: #000;
     gap: 10px;
     display: flex;
     cursor: pointer;
