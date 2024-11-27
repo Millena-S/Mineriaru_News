@@ -103,6 +103,7 @@ footer{
     flex-direction: row;
 }
 .left_area{
+    gap: 5px;
     width: 100%;
     height: 100%;
     flex: 1;
@@ -125,6 +126,7 @@ h3{
     width: 12px;
 }
 .read_more{
+    margin-top: 15px;
     background-color: #9a35f2;
     color: #fff;
     font-weight: 800;
@@ -150,6 +152,10 @@ h3{
     background-color: rgba(0, 0, 0, 0.2);
 }
 .banuncio{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
     height: 215px;
     width: 215px;
 }
@@ -161,15 +167,20 @@ h3{
     background-image: url('https://i.pinimg.com/736x/db/97/d8/db97d839cc78439b1beb7874f31acfcd.jpg');
 }
 .right_area .noticia{
+    padding: 15px;
     border: 1px solid #000;
     border-radius: 10%;
-    cursor: pointer;
 }
 .right_area .noticia:hover{
     opacity: 0.9;
     box-shadow: 0 0 3px #000;
 }
+.noticia{
+    display: flex;
+    cursor: pointer;
+}
 .left_area .noticia img{
+    background-size: cover;
     height: 150px;
     width: 150px;
     background-position: right;
