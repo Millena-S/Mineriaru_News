@@ -73,10 +73,12 @@ footer{
     width: 12px;
 }
 h2{
+    align-self: center;
     font-size: 24px;
     margin: 20px;
 }
 img{
+    margin-bottom: 20px;
     width: 100%;
 }
 h3{
@@ -84,4 +86,8 @@ h3{
     align-self: center;
     margin-top: 15px;
     margin-bottom: 5px;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
 }
