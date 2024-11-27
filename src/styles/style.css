@@ -49,6 +49,7 @@ header{
     box-shadow: 0 0 9px #8b7e9c;
 }
 main{
+    color: #000;
     background-color: #c2b8cc;
     min-height: 100vh;
     width: calc(100vw - 120px);
