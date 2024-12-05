@@ -207,6 +207,7 @@ h3{
     opacity: 0.9;
 }
 .lft_area{
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
