@@ -114,4 +114,7 @@ footer p, footer b{
     footer p, footer b{
         padding: 0 20px;
     }
+    h3, h2{
+        text-align: center;
+    }
 }
