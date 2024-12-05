@@ -222,4 +222,11 @@ h3{
         padding: 20px 30px;
         width: calc(100vw - 60px);
     }
+    .noticias{
+        flex-direction: column-reverse;
+    }
+    .left_area{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
