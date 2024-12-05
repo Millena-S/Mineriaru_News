@@ -91,7 +91,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 40px 0j;
+    padding: 40px 0;
     background-color: #6e548d;
     color: #ddd;
     border-top: 3px solid #806c99;
