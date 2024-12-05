@@ -111,6 +111,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .right_area{
     align-items: center;
@@ -233,6 +234,8 @@ h3{
         height: 100%;
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .right_area{
         width: 100%;
@@ -241,10 +244,13 @@ h3{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10px;
+        gap: 7px;
     }
     .right_area .noticia{
-
+        margin: 0 5px
     }
+
     .noticia{
         flex-direction: column;
     }
