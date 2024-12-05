@@ -208,7 +208,7 @@ h3{
 }
 
 
-@media (max-width:420px) and (max-height:900px) {
+@media (max-width:420px){
     header{
         padding: 20px 20px;
     } 
@@ -243,6 +243,9 @@ h3{
         justify-content: center;
     }
     .right_area .noticia{
+
+    }
+    .noticia{
         flex-direction: column;
     }
 }
