@@ -22,7 +22,7 @@ menuOpener.addEventListener('click', () =>{
         menu.style.display = 'flex';
         menuClosed = false
     }
-});
+);
 
 menu.addEventListener('click', ()=>{
     if(menuClosed === false){
