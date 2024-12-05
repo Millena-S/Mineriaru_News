@@ -215,4 +215,7 @@ h3{
     header a h1{
         gap: 50px;
     }
+    .hero_down{
+        flex-direction: column;
+    }
 }
