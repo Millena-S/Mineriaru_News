@@ -218,4 +218,8 @@ h3{
     .hero_down{
         flex-direction: column;
     }
+    main{
+        padding: 20px 30px;
+        width: calc(100vw - 60px);
+    }
 }
