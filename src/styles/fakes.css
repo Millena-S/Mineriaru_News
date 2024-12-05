@@ -93,3 +93,25 @@ p{
     font-size: 18px;
     font-weight: 500;
 }
+footer p, footer b{
+    padding: 0 40px;
+}
+
+@media (max-width:420px){
+    header{
+        padding: 20px 20px;
+    } 
+    header a h1{
+        gap: 50px;
+    }
+    main{
+        padding: 20px 30px;
+        width: calc(100vw - 60px);
+    }
+    footer{
+        padding: 25px 0;
+    }
+    footer p, footer b{
+        padding: 0 20px;
+    }
+}
