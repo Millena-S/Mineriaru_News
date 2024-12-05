@@ -242,4 +242,7 @@ h3{
         align-items: center;
         justify-content: center;
     }
+    .right_area .noticia{
+        flex-direction: column;
+    }
 }
