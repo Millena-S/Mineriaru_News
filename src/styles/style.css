@@ -209,8 +209,7 @@ h3{
 
 
 @media (max-width:420px) and (max-height:900px) {
-    header a h1{
-        flex: 1;
-        justify-content: space-around;
+    header{
+        padding: 20px 20px;
     } 
 }
