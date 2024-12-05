@@ -216,18 +216,18 @@ footer p, footer b{
     padding: 0 40px;
 }
 .menu{
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
+    position: absolute;
 
 }
 .menu div{
+    height: 350px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
