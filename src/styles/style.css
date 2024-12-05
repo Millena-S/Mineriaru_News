@@ -254,4 +254,10 @@ h3{
     .noticia{
         flex-direction: column;
     }
+    .lft_area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
