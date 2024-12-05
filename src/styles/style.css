@@ -225,6 +225,7 @@ footer p, footer b{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
+    padding: 0 30px;
 
 }
 .menu div{
@@ -234,7 +235,6 @@ footer p, footer b{
     align-items: center;
     border: 4px solid #fff;
     box-shadow: 0 0 10px #898989;
-    margin: auto 30px;
     background-color: #6e548d;
     padding: 30px;
     border-radius: 4%;
