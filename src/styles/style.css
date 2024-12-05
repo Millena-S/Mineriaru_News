@@ -207,6 +207,14 @@ h3{
 .left_area .noticia:hover{
     opacity: 0.9;
 }
+.lft_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p, footer b{
+    padding: 0 40px;
+}
 
 
 @media (max-width:420px){
@@ -259,5 +267,11 @@ h3{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    footer{
+        padding: 25px 0;
+    }
+    footer p, footer b{
+        padding: 0 20px;
     }
 }
