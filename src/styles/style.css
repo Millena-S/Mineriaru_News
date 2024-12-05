@@ -216,12 +216,14 @@ footer p, footer b{
     padding: 0 40px;
 }
 .menu{
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
 
 }
@@ -234,6 +236,8 @@ footer p, footer b{
     box-shadow: 0 0 10px #898989;
     margin: auto 30px;
     background-color: #6e548d;
+    padding: 30px;
+    border-radius: 4%;
 }
 
 
